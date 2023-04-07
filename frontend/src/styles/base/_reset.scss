@@ -1,0 +1,26 @@
+
+body {
+  margin: 0;
+  min-width: 350px;
+}
+
+#root {
+
+  min-height: max(350px, 100vh);
+  min-height: max(350px, 100dvh);
+
+  display: flex;
+  flex-direction: row;
+
+  box-sizing: border-box;
+
+  font-family: 'lato', Helvetica, sans-serif;
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+main {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+i {
+  font-style: normal;
+}
+
+p {
+  margin: 0;
+  font-weight: 300;
+}

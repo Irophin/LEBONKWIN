@@ -1,0 +1,25 @@
+.btn {
+	padding: .5em 1em;
+	min-width: 100px;
+	border-radius: 2em;
+	border: 1px solid var(--dark-blue);
+	background-color: var(--white);
+	cursor: pointer;
+	transition: filter 0.2s;
+
+	&--primary {
+		background-color: var(--dark-blue);
+		color: var(--white);
+		border-color: var(--dark-blue);
+	}
+
+	&--danger {
+		background-color: var(--dark-red);
+		color: var(--white);
+		border-color: var(--dark-red);
+	}
+
+	&:hover {
+		filter: brightness(0.9);
+	}
+}
